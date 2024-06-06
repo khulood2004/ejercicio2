@@ -28,10 +28,12 @@ public class HelloApplication {
                 for(int j=number;j<i;j++){
                     System.out.print(" ");
                 }
-                System.out.print("-");
-                System.out.print("|");
+                System.out.print("|_");
                 System.out.println();
             }
+        }
+        if (number == 0) {
+            System.out.println("__");
         }
     }
 }
